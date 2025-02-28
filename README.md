@@ -23,13 +23,13 @@
 
 ---
 
-## 📝 Introduction
+## Introduction
 
 The **Schrödinger Watch** is an ESP32-S3-based open-source smartwatch designed with a focus on **compact PCB layout**, **low power consumption**, and **modular features**. It integrates **RTC, I2C display, battery monitoring**, and a **USB charging circuit**, making it a versatile platform for wearable tech enthusiasts.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature                  | Description |
 |--------------------------|-------------|
@@ -47,7 +47,7 @@ The **Schrödinger Watch** is an ESP32-S3-based open-source smartwatch designed 
 
 ---
 
-## 🔩 Hardware Overview
+## Hardware Overview
 
 The smartwatch is designed with **SMD components** for compactness. Below is the pin mapping:
 
@@ -64,7 +64,7 @@ The smartwatch is designed with **SMD components** for compactness. Below is the
 
 ---
 
-## 🖥️ Schematic & PCB Design
+## Schematic & PCB Design
 
 The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists of:
 - ESP32-S3-WROOM microcontroller
@@ -80,11 +80,11 @@ The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists 
 - **Thermal relief for heat dissipation**
 - **Dedicated test points for debugging**
 
-📁 **Download KiCad files:** [Schrödinger_Watch.kicad_pcb](path_to_file)
+ **Download KiCad files:** [Schrödinger_Watch.kicad_pcb](path_to_file)
 
 ---
 
-## 📜 Bill of Materials (BoM)
+##  Bill of Materials (BoM)
 
 | Component | Quantity | Specification |
 |-----------|----------|--------------|
@@ -100,7 +100,7 @@ The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists 
 
 ---
 
-## 💻 Firmware & Software
+##  Firmware & Software
 
 The firmware is written in **Arduino** using the ESP32 library. It supports:
 - RTC time synchronization
@@ -109,11 +109,11 @@ The firmware is written in **Arduino** using the ESP32 library. It supports:
 - Button interactions
 - Alarm system with buzzer
 
-📁 **Download Code:** [Schrödinger_Watch.ino](path_to_file)
+ **Download Code:** [Schrödinger_Watch.ino](path_to_file)
 
 ---
 
-## 🛠️ Assembly & Soldering Guide
+##  Assembly & Soldering Guide
 
 ### Tools Required:
 - Soldering iron with fine tip
@@ -131,7 +131,7 @@ The firmware is written in **Arduino** using the ESP32 library. It supports:
 
 ---
 
-## 🚀 Usage Guide
+##  Usage Guide
 
 ### Powering On:
 Press and hold the power button. The watch will display the **time, battery status**, and active alarms.
@@ -147,7 +147,7 @@ The RTC alarm triggers a buzzer sound at the set time.
 
 ---
 
-## ⚡ Power Management
+##  Power Management
 
 - **Automatic Power Switching:** P-MOSFET allows seamless switching between USB and battery.
 - **USB Protection:** Schottky diode prevents reverse current flow.
@@ -155,7 +155,7 @@ The RTC alarm triggers a buzzer sound at the set time.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! If you’d like to improve the watch, please:
 1. Fork the repository.
@@ -164,7 +164,7 @@ We welcome contributions! If you’d like to improve the watch, please:
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it with proper attribution.
 
