@@ -17,9 +17,10 @@
 7. [Assembly & Soldering Guide](#assembly--soldering-guide)
 8. [Usage Guide](#usage-guide)
 9. [Power Management](#power-management)
-10. [Contributing](#contributing)
-11. [License](#license)
-12. [Acknowledgments](#acknowledgments)
+10. [Downloads](#downloads)
+11. [Contributing](#contributing)
+12. [License](#license)
+13. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -80,7 +81,6 @@ The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists 
 - **Thermal relief for heat dissipation**
 - **Dedicated test points for debugging**
 
- **Download KiCad files:** [Schrödinger_Watch.kicad_pcb](https://github.com/nithinmathewjoji/Schrodinger-Clock-PCB-Watch-/tree/master/KiCAD-Files)
 
 ---
 
@@ -109,7 +109,7 @@ The firmware is written in **Arduino** using the ESP32 library. It supports:
 - Button interactions
 - Alarm system with buzzer
 
- **Download Code:** [Schrödinger_Watch.ino](path_to_file)
+
 
 ---
 
@@ -154,6 +154,10 @@ The RTC alarm triggers a buzzer sound at the set time.
 - **Low Power Mode:** ESP32 enters deep sleep when inactive to conserve power.
 
 ---
+
+## Downloads
+-  **Download KiCad files:** [Schrödinger_Watch.kicad_pcb](https://github.com/nithinmathewjoji/Schrodinger-Clock-PCB-Watch-/tree/master/KiCAD-Files)
+-  **Download Code:** [Schrödinger_Watch.ino](path_to_file)
 
 ##  Contributing
 
