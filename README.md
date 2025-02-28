@@ -163,6 +163,7 @@ The RTC alarm triggers a buzzer sound at the set time.
 ## Downloads
 -  **Download KiCad files:** [Schrödinger_Watch.kicad_pcb](https://github.com/nithinmathewjoji/Schrodinger-Clock-PCB-Watch-/tree/master/KiCAD-Files)
 -  **Download Code:** [Schrödinger_Watch.ino](path_to_file)
+-  **Schematics:** [Schrödinger_Watch_schematics](![Image](https://github.com/user-attachments/assets/701495e3-6dbc-4bc9-9b8c-c91a91d385ef))
 
 ##  Contributing
 
