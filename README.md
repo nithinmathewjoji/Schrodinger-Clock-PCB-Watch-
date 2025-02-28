@@ -80,7 +80,7 @@ The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists 
 - **Thermal relief for heat dissipation**
 - **Dedicated test points for debugging**
 
- **Download KiCad files:** [Schrödinger_Watch.kicad_pcb](path_to_file)
+ **Download KiCad files:** [Schrödinger_Watch.kicad_pcb](https://github.com/nithinmathewjoji/Schrodinger-Clock-PCB-Watch-/tree/master/KiCAD-Files)
 
 ---
 
