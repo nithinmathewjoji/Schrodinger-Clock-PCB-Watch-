@@ -80,6 +80,8 @@ The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists 
 - Battery voltage detection circuit
 - USB programmer (CH340G)
 
+  ![Image](https://github.com/user-attachments/assets/701495e3-6dbc-4bc9-9b8c-c91a91d385ef)
+
 **PCB Highlights:**
 - **2-layer compact design**
 - **Optimized power trace routing**
