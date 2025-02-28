@@ -18,9 +18,10 @@
 8. [Usage Guide](#usage-guide)
 9. [Power Management](#power-management)
 10. [Downloads](#downloads)
-11. [Contributing](#contributing)
-12. [License](#license)
-13. [Acknowledgments](#acknowledgments)
+11. [Visit Interactive BOM](https://nithinmathewjoji.github.io/Schrodinger-Clock-PCB-Watch-/)
+12. [Contributing](#contributing)
+13. [License](#license)
+14. [Acknowledgments](#acknowledgments)
 
 ---
 
