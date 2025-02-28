@@ -56,12 +56,17 @@ The smartwatch is designed with **SMD components** for compactness. Below is the
 |------------|------------|----------|
 | OLED SDA   | GPIO 20   | I2C SDA  |
 | OLED SCL   | GPIO 21   | I2C SCL  |
-| RTC Alarm  | SQW/INT to ESP32 |
-| Battery ADC | Voltage divider to ESP32 Analog Pin |
+| RTC SDA   | GPIO 20   | I2C SDA  |
+| RTC SCL   | GPIO 21   | I2C SCL  |
+| RTC Alarm  | GPIO 11 | SQW/INT to ESP32 |
+| Battery ADC | GPIO7 | Voltage divider to ESP32 Analog Pin |
 | LED        | GPIO 2    | Status Indication |
-| Push Button 1 | GPIO X  | User Input |
-| Push Button 2 | GPIO Y  | User Input |
-| Push Button 3 | GPIO Z  | User Input |
+| LED        | GPIO 3    | Status Indication |
+| LED        | GPIO 4    | Status Indication |
+| Push Button 1 | GPIO 20  | User Input |
+| Push Button 2 | GPIO 21 | User Input |
+| Push Button 3 | GPIO 22  | User Input |
+
 
 ---
 
