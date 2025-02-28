@@ -1,7 +1,7 @@
 # Schrödinger Watch - Open Source Smartwatch
 # not complete repository will be updated completely within 2 days from 28/02/2025
 
-![Image](https://github.com/user-attachments/assets/8ab9bdc0-2dad-4de0-9f77-694c59abd057)
+![Image](https://github.com/user-attachments/assets/74d81d68-7b34-4984-9274-310f89be6453)
 *A compact, open-source smartwatch powered by the ESP32-S3-WROOM with real-time clock, battery monitoring, and USB charging.*
 
 ---
