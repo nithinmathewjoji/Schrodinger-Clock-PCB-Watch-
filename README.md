@@ -44,9 +44,10 @@ The **Schrödinger Watch** is an ESP32-S3-based open-source smartwatch designed 
 | **Charging Circuit**     | TP4056 for Li-Po charging |
 | **Battery Monitoring**   | Voltage divider for ADC measurement |
 | **USB Communication**    | CH340G USB programmer |
-| **Power Switching**      | P-MOSFET for auto power control |
+| **Power Switching**      | *P-MOSFET for auto power control |
 | **Protection Circuit**   | Schottky diode for USB protection |
 
+*feature will be added on the next revision
 ---
 
 ## Hardware Overview
