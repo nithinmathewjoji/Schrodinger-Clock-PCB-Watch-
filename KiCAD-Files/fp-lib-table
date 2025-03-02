@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TP4056 (2)")(type "KiCad")(uri "C:/Users/magic/Downloads/TP4056 (2)")(options "")(descr ""))
+  (lib (name "SKRKAEE010")(type "KiCad")(uri "F:/KiCad/footprints/SKRKAEE010")(options "")(descr ""))
+  (lib (name "catlogo.preety")(type "KiCad")(uri "F:/KiCad/footprints/catlogo.preety")(options "")(descr ""))
+)
