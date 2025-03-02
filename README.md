@@ -43,7 +43,7 @@ The **Schrödinger Watch** is an ESP32-S3-based open-source smartwatch designed 
 | **Battery**              | 3.7V Li-Po battery |
 | **Charging Circuit**     | TP4056 for Li-Po charging |
 | **Battery Monitoring**   | Voltage divider for ADC measurement |
-| **USB Communication**    | CH340G USB programmer |
+| **USB Communication**    | CP2102 USB programmer |
 | **Power Switching**      | *P-MOSFET for auto power control |
 | **Protection Circuit**   | Schottky diode for USB protection |
 
@@ -81,7 +81,7 @@ The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists 
 - Power management with TP4056 and P-MOSFET
 - I2C OLED display
 - Battery voltage detection circuit
-- USB programmer (CH340G)
+- USB programmer (CP2102)
 
 ![Image](https://github.com/user-attachments/assets/05f76e5b-197c-40fe-948d-525a1f453791)
 
@@ -103,7 +103,7 @@ The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists 
 | DS3231 RTC | 1 | Real-time clock module |
 | Li-Po Battery | 1 | 3.7V, 500mAh |
 | TP4056 Module | 1 | Battery charger |
-| CH340G | 1 | USB-to-serial |
+| CP2102 | 1 | USB-to-serial |
 | Buzzer | 1 | 3V piezo |
 | Push Buttons | 3 | Momentary switch |
 | Resistors & Capacitors | Various | SMD components |
