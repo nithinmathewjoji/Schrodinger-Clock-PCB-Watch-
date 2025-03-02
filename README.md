@@ -18,10 +18,11 @@
 8. [Usage Guide](#usage-guide)
 9. [Power Management](#power-management)
 10. [Downloads](#downloads)
-11. [Visit Interactive BOM](https://nithinmathewjoji.github.io/Schrodinger-Clock-PCB-Watch-/)
-12. [Contributing](#contributing)
-13. [License](#license)
-14. [Acknowledgments](#acknowledgments)
+11. [Firmware](#firmware)
+12. [Visit Interactive BOM](https://nithinmathewjoji.github.io/Schrodinger-Clock-PCB-Watch-/)
+13. [Contributing](#contributing)
+14. [License](#license)
+15. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -169,6 +170,12 @@ The RTC alarm triggers a buzzer sound at the set time.
 -  **Download KiCad files:** [Schrödinger_Watch.kicad_pcb](https://github.com/nithinmathewjoji/Schrodinger-Clock-PCB-Watch-/tree/master/KiCAD-Files)
 -  **Download Code:** [Schrödinger_Watch.ino](path_to_file)
 -  **Schematics:** [Schrödinger_Watch_schematics](https://github.com/nithinmathewjoji/Schrodinger-Clock-PCB-Watch-/blob/master/Schematics/schematic.pdf)
+
+---
+
+## Firmware
+
+- **Schrödinger Watch Firmware:** [firmware_not_yet_released_please_hold_on]()
 
 ##  Contributing
 
