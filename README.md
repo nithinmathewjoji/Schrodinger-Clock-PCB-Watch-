@@ -1,6 +1,6 @@
 # Schrödinger Watch - Open Source Smartwatch
 
-![Image](https://github.com/user-attachments/assets/74d81d68-7b34-4984-9274-310f89be6453)
+![Image](https://github.com/user-attachments/assets/ff7e76a2-2ea0-487d-b156-6dcd2752788e)
 *A compact, open-source smartwatch powered by the ESP32-S3-WROOM with real-time clock, battery monitoring, and USB charging.*
 
 ---
