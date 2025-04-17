@@ -18,18 +18,19 @@
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Hardware Overview](#hardware-overview)
-4. [Schematic & PCB Design](#schematic--pcb-design)
-5. [Bill of Materials (BoM)](#bill-of-materials-bom)
-6. [Firmware & Software](#firmware--software)
-7. [Assembly & Soldering Guide](#assembly--soldering-guide)
-8. [Usage Guide](#usage-guide)
-9. [Power Management](#power-management)
-10. [Downloads](#downloads)
-11. [Firmware](#firmware)
-12. [Visit Interactive BOM](https://nithinmathewjoji.github.io/Schrodinger-Clock-PCB-Watch-/)
-13. [Contributing](#contributing)
-14. [License](#license)
-15. [Acknowledgments](#acknowledgments)
+4. [Sponsorship and Support](#Sponsorship-and-Support)
+5. [Schematic & PCB Design](#schematic--pcb-design)
+6. [Bill of Materials (BoM)](#bill-of-materials-bom)
+7. [Firmware & Software](#firmware--software)
+8. [Assembly & Soldering Guide](#assembly--soldering-guide)
+9. [Usage Guide](#usage-guide)
+10. [Power Management](#power-management)
+11. [Downloads](#downloads)
+12. [Firmware](#firmware)
+13. [Visit Interactive BOM](https://nithinmathewjoji.github.io/Schrodinger-Clock-PCB-Watch-/)
+14. [Contributing](#contributing)
+15. [License](#license)
+16. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -80,6 +81,23 @@ The smartwatch is designed with **SMD components** for compactness. Below is the
 * refer circuit  [Schrödinger_Watch_schematics](https://github.com/nithinmathewjoji/Schrodinger-Clock-PCB-Watch-/blob/master/Schematics/schematic.pdf) for more detailed pin out.and pin assignments
 
 ---
+
+## Sponsorship and Support
+
+<p align="center">
+  <a href="https://www.pcbway.com/">
+    <img src="./pcbway_logo.png" alt="PCBWay" width="250"/>
+  </a>
+</p>
+
+### 🙏 Thank You, PCBWay!
+
+This project was proudly sponsored by [**PCBWay**](https://www.pcbway.com/).  
+
+Their support in fabricating the custom PCB for the Schrödinger Watch has been invaluable. The quality, precision, and delivery speed were exceptional — and I’m extremely grateful for their contribution to the maker and open-source community.
+
+If you're looking for reliable PCB prototyping, assembly, or 3D printing services, I highly recommend [**PCBWay**](https://www.pcbway.com/).
+
 
 ## Schematic & PCB Design
 
