@@ -1,5 +1,12 @@
 # Schrödinger Clock - Open Source Smartwatch 
-#           (Sponsored by PCBWay)
+
+<h2 align="center">Sponsored By</h2>
+<p align="center">
+  <a href="https://www.pcbway.com/">
+    <img src="./PCBWay logo.png" alt="PCBWay" width="200"/>
+  </a>
+</p>
+
 
 ![Image](https://github.com/user-attachments/assets/ff7e76a2-2ea0-487d-b156-6dcd2752788e)
 *A compact, open-source smartwatch powered by the ESP32-S3-WROOM with real-time clock, battery monitoring, and USB charging.*
