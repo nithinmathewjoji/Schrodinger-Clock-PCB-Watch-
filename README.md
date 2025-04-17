@@ -86,7 +86,7 @@ The smartwatch is designed with **SMD components** for compactness. Below is the
 
 <p align="center">
   <a href="https://www.pcbway.com/">
-    <img src="./pcbway_logo.png" alt="PCBWay" width="250"/>
+    <img src="./PCBWay logo.png" alt="PCBWay" width="250"/>
   </a>
 </p>
 
