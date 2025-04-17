@@ -1,6 +1,6 @@
 # Schrödinger Clock - Open Source Smartwatch 
 
-<h2 align="center">Sponsored By</h2>
+<p align="center">Sponsored By </p>
 <p align="center">
   <a href="https://www.pcbway.com/">
     <img src="./PCBWay logo.png" alt="PCBWay" width="200"/>
