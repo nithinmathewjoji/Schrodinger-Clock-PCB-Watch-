@@ -2,7 +2,7 @@
 
 <p align="center">Sponsored By </p>
 <p align="center">
-  <a href="https://www.pcbway.com/">
+  <a href="https://pcbway.com/g/D6Z94Y">
     <img src="./PCBWay logo.png" alt="PCBWay" width="200"/>
   </a>
 </p>
@@ -85,18 +85,18 @@ The smartwatch is designed with **SMD components** for compactness. Below is the
 ## Sponsorship and Support
 
 <p align="center">
-  <a href="https://www.pcbway.com/">
+  <a href="https://pcbway.com/g/D6Z94Y">
     <img src="./PCBWay logo.png" alt="PCBWay" width="250"/>
   </a>
 </p>
 
 ### 🙏 Thank You, PCBWay!
 
-This project was proudly sponsored by [**PCBWay**](https://www.pcbway.com/).  
+This project was proudly sponsored by [**PCBWay**](https://pcbway.com/g/D6Z94Y).  
 
 Their support in fabricating the custom PCB for the Schrödinger Watch has been invaluable. The quality, precision, and delivery speed were exceptional — and I’m extremely grateful for their contribution to the maker and open-source community.
 
-If you're looking for reliable PCB prototyping, assembly, or 3D printing services, I highly recommend [**PCBWay**](https://www.pcbway.com/).
+If you're looking for reliable PCB prototyping, assembly, or 3D printing services, I highly recommend [**PCBWay**](https://pcbway.com/g/D6Z94Y).
 
 
 ## Schematic & PCB Design
