@@ -1,3 +1,4 @@
 ## Schematics 
 
-![Image](https://github.com/user-attachments/assets/05f76e5b-197c-40fe-948d-525a1f453791)
+![Image](https://github.com/user-attachments/assets/e0cc1d44-5b90-4ff5-a8fc-488cb06ea098)
+
