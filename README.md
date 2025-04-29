@@ -1,4 +1,4 @@
-# Schrödinger Clock - Open Source Smartwatch 
+# Schrödinger Clock - Open Source Smartwatch (Prototype⚠️)
 
 <p align="center">Sponsored By </p>
 <p align="center">
@@ -20,17 +20,18 @@
 3. [Hardware Overview](#hardware-overview)
 4. [Sponsorship and Support](#Sponsorship-and-Support)
 5. [Schematic & PCB Design](#schematic--pcb-design)
-6. [Bill of Materials (BoM)](#bill-of-materials-bom)
-7. [Firmware & Software](#firmware--software)
-8. [Assembly & Soldering Guide](#assembly--soldering-guide)
-9. [Usage Guide](#usage-guide)
-10. [Power Management](#power-management)
-11. [Downloads](#downloads)
-12. [Firmware](#firmware)
-13. [Visit Interactive BOM](https://nithinmathewjoji.github.io/Schrodinger-Clock-PCB-Watch-/)
-14. [Contributing](#contributing)
-15. [License](#license)
-16. [Acknowledgments](#acknowledgments)
+6. [Known issues & Fix](#Known-issues-&-Fix)
+7. [Bill of Materials (BoM)](#bill-of-materials-bom)
+8. [Firmware & Software](#firmware--software)
+9. [Assembly & Soldering Guide](#assembly--soldering-guide)
+10. [Usage Guide](#usage-guide)
+11. [Power Management](#power-management)
+12. [Downloads](#downloads)
+13. [Firmware](#firmware)
+14. [Visit Interactive BOM](https://nithinmathewjoji.github.io/Schrodinger-Clock-PCB-Watch-/)
+15. [Contributing](#contributing)
+16. [License](#license)
+17. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -119,6 +120,54 @@ The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists 
 
 
 ---
+
+
+## Known issues & Fix
+
+Schrödinger Watch ⌚ – ESP32-S3 DIY Smartwatch
+
+This is the **Schrödinger Watch**, a DIY smartwatch powered by the **ESP32-S3-WROOM**. It's a fully open-source hardware project, designed and assembled from scratch, with a focus on learning, hacking, and creativity.
+
+> ⚠️ **Note:** This is **Rev 1** of the hardware. While functional, it contains some known hardware issues listed below. A refined **Rev 2** is under development and will be released by **September 2025** with additional features and improved reliability.
+
+These are hardware issues identified after assembly and testing:
+
+1. **Missing CE Connection on TP4056:**
+   - ⚠️ The CE (Chip Enable) pin was left floating, causing the charging IC to remain disabled.
+   - ✅ *Fix:* A patch wire has been added to tie CE to GND manually.
+
+2. **AMS1117 3.3V LDO Lacks Input/Output Capacitors:**
+   - ⚠️ Without these caps, voltage regulation is unstable (outputting ~2.4V instead of 3.3V).
+   - ✅ *Fix:* Patch capacitors (10µF input, 22µF output) have been manually added close to the LDO pins.
+
+3. **No Pull-Down Resistors for Pushbuttons:**
+   - ⚠️ Causes GPIO pins to float, leading to erratic behavior.
+   - ✅ *Fix:* External 10kΩ pull-down resistors were added to stabilize the inputs.
+
+4. **Soldering Considerations:**
+   - Designed with mostly **THT components** for accessibility.
+   - Manually soldered due to lack of hot plate/hot air station; minor imperfections present but functional.
+
+---
+
+# 🚀 What's Coming in Rev 2 (ETA: September 2025)
+
+Rev 2 will be a major update with all hardware issues addressed and new features, including:
+
+- ✅ Proper power rail decoupling and CE management
+- ✅ Integrated **MPU6050** IMU for motion sensing
+- ✅ Improved button input system
+- ✅ Compact routing and optional SMD version
+- ✅ Better power management and battery indication
+- ✅ Optional haptic feedback (planned)
+- ✅ Additional user-customizable GPIOs
+
+ 📌 Disclaimer
+
+This is a learning-oriented DIY project and should not be considered a finished consumer product. Use with care and contribute to make it better!
+
+
+
 
 ##  Bill of Materials (BoM)
 
