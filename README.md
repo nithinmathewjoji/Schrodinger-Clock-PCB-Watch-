@@ -157,7 +157,7 @@ Rev 2 will be a major update with all hardware issues addressed and new features
 - ✅ Proper power rail decoupling and CE management
 - ✅ Integrated **MPU6050** IMU for motion sensing
 - ✅ Improved button input system
-- ✅ Compact routing and optional SMD version
+- ✅ Compact routing 
 - ✅ Better power management and battery indication
 - ✅ Optional haptic feedback (planned)
 - ✅ Additional user-customizable GPIOs
