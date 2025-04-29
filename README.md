@@ -144,13 +144,13 @@ These are hardware issues identified after assembly and testing:
    - ⚠️ Causes GPIO pins to float, leading to erratic behavior.
    - ✅ *Fix:* External 10kΩ pull-down resistors were added to stabilize the inputs.
 
-4. **Soldering Considerations:**
-   - Designed with mostly **THT components** for accessibility.
-   - Manually soldered due to lack of hot plate/hot air station; minor imperfections present but functional.
+4.  **Soldering Considerations:**
+   - The board is fully designed with **SMD components** for a compact layout.
+   - All components were **hand-soldered** using a soldering iron, without hot air or reflow equipment. Minor imperfections exist, but the board is fully functional.
 
 ---
 
-# 🚀 What's Coming in Rev 2 (ETA: September 2025)
+#  What's Coming in Rev 2 (ETA: September 2025)
 
 Rev 2 will be a major update with all hardware issues addressed and new features, including:
 
