@@ -20,7 +20,7 @@
 3. [Hardware Overview](#hardware-overview)
 4. [Sponsorship and Support](#Sponsorship-and-Support)
 5. [Schematic & PCB Design](#schematic--pcb-design)
-6. [Known issues & Fix](#Known-issues-&-Fix)
+6. [Known issues & Fix](#Known-issues-and-Fix)
 7. [Bill of Materials (BoM)](#bill-of-materials-bom)
 8. [Firmware & Software](#firmware--software)
 9. [Assembly & Soldering Guide](#assembly--soldering-guide)
@@ -122,7 +122,7 @@ The Schrödinger Watch PCB was designed using **KiCad**. The schematic consists 
 ---
 
 
-## Known issues & Fix
+## Known issues and Fix
 
 Schrödinger Watch ⌚ – ESP32-S3 DIY Smartwatch
 
