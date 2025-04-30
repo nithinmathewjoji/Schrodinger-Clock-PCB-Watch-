@@ -249,7 +249,102 @@ The RTC alarm triggers a buzzer sound at the set time.
 
 ## Firmware
 
-- **Schrödinger Watch Firmware:** [firmware_not_yet_released_please_hold_on]()
+🛠️ Libraries Used
+
+- [U8g2](https://github.com/olikraus/u8g2)
+- [RTClib](https://github.com/adafruit/RTClib)
+
+Install via Arduino Library Manager or PlatformIO.
+
+🚧 Known Hardware Issues (Rev 1)
+
+- ❌ No CE connection to TP4056 (manually patched)
+- ❌ No input/output capacitors on MIC39100/AMS1117 LDO (caused unstable voltage)
+- ❌ Button GPIOs conflicted with I2C (now reassigned to GPIOs 12–14)
+- ❌ No pull-down resistors for switches (using `INPUT_PULLDOWN` in firmware)
+
+# 💾 Firmware Code
+
+```cpp
+#include <Wire.h>
+#include <U8g2lib.h>
+#include <RTClib.h>
+
+// I2C Pins
+#define SDA_PIN 20
+#define SCL_PIN 21
+
+// GPIO Definitions
+#define LED_PIN       2
+#define BATTERY_ADC   7
+#define RTC_ALARM_PIN 11
+
+#define BUTTON1 12
+#define BUTTON2 13
+#define BUTTON3 14
+
+U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE);
+RTC_DS3231 rtc;
+
+void setup() {
+  Serial.begin(115200);
+
+  Wire.begin(SDA_PIN, SCL_PIN);
+  u8g2.begin();
+
+  pinMode(LED_PIN, OUTPUT);
+  pinMode(RTC_ALARM_PIN, INPUT);
+  pinMode(BATTERY_ADC, INPUT);
+
+  pinMode(BUTTON1, INPUT_PULLDOWN);
+  pinMode(BUTTON2, INPUT_PULLDOWN);
+  pinMode(BUTTON3, INPUT_PULLDOWN);
+
+  if (!rtc.begin()) {
+    u8g2.clearBuffer();
+    u8g2.setFont(u8g2_font_ncenB08_tr);
+    u8g2.drawStr(0, 20, "RTC Not Found");
+    u8g2.sendBuffer();
+    while (1);
+  }
+
+  if (rtc.lostPower()) {
+    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+  }
+
+  u8g2.clearBuffer();
+  u8g2.setFont(u8g2_font_6x10_tr);
+  u8g2.drawStr(0, 10, "Schrodinger Watch");
+  u8g2.sendBuffer();
+  delay(1000);
+}
+
+void loop() {
+  DateTime now = rtc.now();
+
+  char timeStr[9];
+  sprintf(timeStr, "%02d:%02d:%02d", now.hour(), now.minute(), now.second());
+
+  float batteryVoltage = analogRead(BATTERY_ADC) * (3.3 / 4095.0) * 2;  // Adjust based on divider
+  char voltStr[10];
+  dtostrf(batteryVoltage, 4, 2, voltStr);
+
+  u8g2.clearBuffer();
+  u8g2.setFont(u8g2_font_logisoso38_tr);
+  u8g2.drawStr(0, 50, timeStr);
+  u8g2.setFont(u8g2_font_6x10_tr);
+  u8g2.drawStr(0, 62, ("BAT: " + String(voltStr) + "V").c_str());
+  u8g2.sendBuffer();
+
+  digitalWrite(LED_PIN, !digitalRead(LED_PIN));  // Blink LED
+
+  if (digitalRead(BUTTON1)) Serial.println("Button 1 Pressed");
+  if (digitalRead(BUTTON2)) Serial.println("Button 2 Pressed");
+  if (digitalRead(BUTTON3)) Serial.println("Button 3 Pressed");
+
+  delay(1000);
+}
+
 
 ##  Contributing
 
