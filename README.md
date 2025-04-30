@@ -260,8 +260,15 @@ Install via Arduino Library Manager or PlatformIO.
 
 - ❌ No CE connection to TP4056 (manually patched)
 - ❌ No input/output capacitors on MIC39100/AMS1117 LDO (caused unstable voltage)
-- ❌ Button GPIOs conflicted with I2C (now reassigned to GPIOs 12–14)
 - ❌ No pull-down resistors for switches (using `INPUT_PULLDOWN` in firmware)
+
+The current version of the firmware is a minimal working build to demonstrate the core functionality of the Schrödinger Watch. Several features are not yet implemented:
+
+- ❌ Push Buttons are read but not interfaced with any logic or user interaction yet.
+- ❌ RTC Alarm Interrupt is connected (GPIO 11), but not yet used in the firmware.
+- ❌ ESP32 Deep Sleep functionality is not implemented.
+
+These features will be added in the next firmware updates as part of the development toward Rev 2 and in between the current development , revision 2 of this watch expected by September 2025.
 
 # 💾 Firmware Code
 
@@ -269,6 +276,9 @@ Install via Arduino Library Manager or PlatformIO.
 #include <Wire.h>
 #include <U8g2lib.h>
 #include <RTClib.h>
+
+// this code works but to be honest there is a lot of places to improve , like switch are just interfaced but not given any function , but can be done like to set time etc etc ......
+// all issues will be fixed as a progress please bare with me , but if you have the knowledge then happy to recieve help 
 
 // I2C Pins
 #define SDA_PIN 20
@@ -336,7 +346,7 @@ void loop() {
   u8g2.drawStr(0, 62, ("BAT: " + String(voltStr) + "V").c_str());
   u8g2.sendBuffer();
 
-  digitalWrite(LED_PIN, !digitalRead(LED_PIN));  // Blink LED
+  digitalWrite(LED_PIN, !digitalRead(LED_PIN)); 
 
   if (digitalRead(BUTTON1)) Serial.println("Button 1 Pressed");
   if (digitalRead(BUTTON2)) Serial.println("Button 2 Pressed");
@@ -344,8 +354,7 @@ void loop() {
 
   delay(1000);
 }
-
-
+```
 ##  Contributing
 
 We welcome contributions! If you’d like to improve the watch, please:
