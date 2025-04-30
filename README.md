@@ -75,8 +75,8 @@ The smartwatch is designed with **SMD components** for compactness. Below is the
 | LED        | GPIO 2    | Status Indication |
 | LED        | GPIO 3    | Status Indication |
 | LED        | GPIO 4    | Status Indication |
-| Push Button 1 | GPIO 20  | User Input |
-| Push Button 2 | GPIO 21 | User Input |
+| Push Button 1 | GPIO 12  | User Input |
+| Push Button 2 | GPIO 13 | User Input |
 | Push Button 3 | GPIO 22  | User Input |
 
 * refer circuit  [Schrödinger_Watch_schematics](https://github.com/nithinmathewjoji/Schrodinger-Clock-PCB-Watch-/blob/master/Schematics/schematic.pdf) for more detailed pin out.and pin assignments
